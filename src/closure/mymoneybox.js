@@ -1,3 +1,4 @@
+//Sin closure. No devuelve lo que esperamos
 function moneyBox1 (coins) {
     let saveCoins1 = 0;
     saveCoins1 += coins;
@@ -7,7 +8,11 @@ function moneyBox1 (coins) {
 moneyBox1 (5);
 moneyBox1 (5);
 
+//return:
+// MoneyBox1: $5
+// MoneyBox1: $5
 
+//Con closure. 
 function moneyBox () {
     let saveCoins = 0;
 
